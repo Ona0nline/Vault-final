@@ -1,0 +1,158 @@
+body {
+  background-image: url('images/Vault back.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fascinate-inline-regular {
+  font-family: "Fascinate Inline", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  font-family: "Fascinate Inline", system-ui;
+  color: #FFADD6;
+}
+
+p{
+  color: #FFADD6;
+}
+
+.content {
+  background-color: #090C9B;
+  width: 900px;
+  height: 300px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+}
+
+#search-form {
+  /* transform: translateY(-50px); */
+}
+
+#results {
+  color: aliceblue;
+}
+
+#enter {
+  width: 250px;
+  padding: 8px 3px;
+  opacity: 75%;
+  border: 1px solid #DE369D;
+  color: #FBFFF1;
+}
+
+#submit {
+  border-radius: 30px;
+  border: none;
+  background-color: #FFADD6;
+  padding: 8px 20px;
+  margin-left: 10px;
+  font-size: 18px;
+  color: #DD2C99;
+  font-family: "Fascinate Inline", system-ui;
+}
+
+.color-wheel-green,
+.color-wheel-blue,
+.color-wheel-red,.color-wheel-bubblegum,.color-wheel-drab,.color-wheel-techno {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  animation: spin 10s linear infinite;
+}
+
+.color-wheel-green {
+  background: conic-gradient(#212922, #054A29, #08723F, #294936,#433D23 ,#214E34);
+}
+
+/* #green:hover{
+  width:300px;
+  height:300px;
+} */
+
+.color-wheel-blue {
+  background: conic-gradient(#96C9ED,#B9DBF3,#83C9F4,#A3D5FF,#C3FCFD);
+}
+
+.color-wheel-red {
+  background: conic-gradient(#EEBA0B,red, #6B0504,#FDCA40,#C50A07,#FE4E00,#F4E409,#FFC53A);
+}
+
+.color-wheel-bubblegum{
+    background: conic-gradient(#FF499E, #D264B6, #A480CF, #CE3B54, #E79DA9, #FF1F87);
+}
+
+.color-wheel-drab {
+  background: conic-gradient(#22162B, #451F55, #120A1F, #1A1B25, #3B0086, #12162B);
+}
+
+.color-wheel-techno{
+    background: conic-gradient(#fffffb,#5DDF2A,#020202, #39FF14, #fffffb, #000000);
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* --------------------------------Sidebar nav */
+
+
+/* Style the links inside the sidenav */
+#mySidenav a {
+  position: absolute;
+  /* Position them relative to the browser window */
+  left: -80px;
+  /* Position them outside of the screen */
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #FCFCFC;
+  border-radius: 0 5px 5px 0;
+
+}
+
+#mySidenav a:hover {
+  left: 0;
+  /* On mouse-over, make the elements appear as they should */
+}
+
+
+#help {
+  top: 20px;
+  background-color: #090C9B;
+}
+
+#blog {
+  top: 80px;
+  background-color: #09395D;
+  /* Blue */
+}
+
+#projects {
+  top: 140px;
+  background-color: #3B0086;
+  /* Red */
+}
+
+#contact {
+  top: 200px;
+  background-color: #779BE7
+    /* Light Black */
+}
