@@ -6,7 +6,7 @@ new Typewriter('h1', {
 });
 
 new Typewriter('p', {
-  strings: "Either click on a mood wheel or manually input what mood you're in below",
+  strings: "Either click on a mood wheel that describes your day or manually input what mood best describes your day",
   autoStart: true,
   delay:10
 
