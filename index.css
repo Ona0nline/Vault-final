@@ -24,7 +24,7 @@ p{
 .content {
   background-color: #090C9B;
   width: 900px;
-  height: 300px;
+  height: 500px;
   text-align: center;
   border-radius: 12px;
 }
@@ -155,4 +155,13 @@ p{
   top: 200px;
   background-color: #779BE7
     /* Light Black */
+}
+
+/* -------------------------radio icon-------------------------- */
+.radio{
+  transform: translateY(30px);
+}
+
+#radio{
+  transform: translateY(7px);
 }
